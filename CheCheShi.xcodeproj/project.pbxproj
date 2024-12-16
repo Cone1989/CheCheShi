@@ -30,6 +30,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		52E912392D0C376E00C628A6 /* ci_scripts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
 		52F7C05E2D0C20A4007A3866 /* CheCheShi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CheCheShi;
@@ -75,6 +80,7 @@
 		52F7C0532D0C20A4007A3866 = {
 			isa = PBXGroup;
 			children = (
+				52E912392D0C376E00C628A6 /* ci_scripts */,
 				52F7C05E2D0C20A4007A3866 /* CheCheShi */,
 				52F7C06F2D0C20A9007A3866 /* CheCheShiTests */,
 				52F7C0792D0C20A9007A3866 /* CheCheShiUITests */,
