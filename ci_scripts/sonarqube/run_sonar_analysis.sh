@@ -19,19 +19,19 @@ REPO_NAME="CheCheShi" # Name of the repository
 cd $MAIN_DIRECTORY
 
 # Check out repo if CI
-if [[ $IS_CI == "true" ]]; then
-    REPO_URL="https://github.com/Cone1989" # Github URL (minus repo name)
-
-    # Need to perform a GIT checkout again as it appears to wipe the repository folder after running the tests
-    git clone $REPO_URL/$REPO_NAME.git
-    cd $REPO_NAME; git checkout $BRANCH_NAME
-
-    # Move all files one folder up
-    mv *.* ..
-
-    # Go back up one directory
-    cd ..
-fi
+#if [[ $IS_CI == "true" ]]; then
+#    REPO_URL="https://github.com/Cone1989" # Github URL (minus repo name)
+#
+#    # Need to perform a GIT checkout again as it appears to wipe the repository folder after running the tests
+#    git clone $REPO_URL/$REPO_NAME.git
+#    cd $REPO_NAME; git checkout $BRANCH_NAME
+#
+#    # Move all files one folder up
+#    mv *.* ..
+#
+#    # Go back up one directory
+#    cd ..
+#fi
 
 # Avoid running brew cleanup/auto-update automatically
 export HOMEBREW_NO_INSTALL_CLEANUP=TRUE
