@@ -20,7 +20,7 @@ cd $MAIN_DIRECTORY
 
 # Check out repo if CI
 if [[ $IS_CI == "true" ]]; then
-    REPO_URL="https://github.com/gumtree-development" # Github URL (minus repo name)
+    REPO_URL="https://github.com/Cone1989" # Github URL (minus repo name)
 
     # Need to perform a GIT checkout again as it appears to wipe the repository folder after running the tests
     git clone $REPO_URL/$REPO_NAME.git
