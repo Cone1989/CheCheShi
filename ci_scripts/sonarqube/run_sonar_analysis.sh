@@ -13,7 +13,7 @@ RESULT_BUNDLE_PATH="$5"
 # Variables
 TEST_OUTPUT_FOLDER="$MAIN_DIRECTORY/test_output"
 COVERAGE_FILE="$TEST_OUTPUT_FOLDER/sonarqube-generic-coverage.xml" # Path to the code coverage file
-REPO_NAME="ios-app" # Name of the repository
+REPO_NAME="CheCheShi" # Name of the repository
 
 # Navigate to main directory
 cd $MAIN_DIRECTORY
